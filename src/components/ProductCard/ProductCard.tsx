@@ -8,7 +8,7 @@ import { CartContext } from '../../context/CartContext';
 import { FavouriteContext } from '../../context/FavouriteContext';
 
 type Props = {
-  product: Product,
+  product: Product;
 };
 
 export const ProductCard: React.FC<Props> = ({ product }) => {
