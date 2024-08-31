@@ -1,0 +1,15 @@
+export interface Product {
+  itemId: string,
+  name: string,
+  age: number,
+  // type: Category,
+  category: string,
+  image: string,
+  snippet: string,
+  price: number,
+  fullPrice: number,
+  discount: number,
+  screen: string,
+  capacity: string,
+  ram: string,
+}

@@ -1,3 +1,13 @@
-.starter {
-  font-size: 18px;
+@import "./styles/fonts";
+@import "./styles/utils/reset";
+@import "./styles/typo";
+@import "./styles/global";
+@import "./styles/blocks";
+
+.App {
+  font-family: "Mont-Regular", sans-serif;
+
+  &__content {
+    min-height: 80vh;
+  }
 }
